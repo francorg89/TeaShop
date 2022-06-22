@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+    font-family:  Helvetica, Arial ,sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+}
+h4{
+    padding: 10px;
+    margin: 0;
+    
+}
+
+/*  ------------- HEADER ----------- */
+header{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: seashell solid 1px;
+    height: 69px;
+    z-index:   1;
+    background-color: black;
+    
+    
+}
+
+header img{
+  height: 50px;
+  width: auto;
+}
+nav ul{
+ 
+ display: flex;
+ justify-content: space-around;
+ padding: 0 10px;
+
+}
+ul li{
+
+    text-decoration: underline;
+    padding: 0 10px;
+    list-style: none;
+    color:seashell;
+}
+
+ul a{
+   color: seashell;
+}
+
+ul a:visited{
+    color: white;
+}
+
+/* ------------ BANNER -------------- */
+article{
+    margin: 69px 0 70px 0;
+}
+.banner {
+    background-image: url("../Images/img-mission-background.jpeg");
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 69px auto ;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.center{
+    
+    background-color: black;
+    width: 100%;
+    
+    
+}
+
+/* --------------- FEATURED ------------- */
+#features{
+    margin: 90px auto;
+}
+
+.row{
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.row div{
+    flex-shrink: 0;
+    width: 300px;
+    padding: 0 10px;
+}
+
+/* ------- LOCATION -------- */
+
+#locations{
+    background-image: url("../Images/img-locations-background.jpeg");
+    max-width: 1200px;
+    min-height: 500px;
+    margin: auto;
+    
+    background-position: center ;
+    background-size: cover;
+
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#shit{
+    
+    width: 100%;
+    height:50px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+.location{
+    
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px ;
+    
+    background-color: black;
+    
+}
+
+#contact{
+    height: 200px;
+
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0px ;
+    text-align: left;
+    font-size: 15px;
+    border-top: seashell solid 1px;
+}
